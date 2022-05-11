@@ -60,6 +60,93 @@ Home Page
     <p>The Walk is free!</p>
   </div>
 </div>
+<html>
+<head>
+<a href='home.html'><h1>WeCOnNecT</h1></a>
+<link rel="stylesheet" href="Contact.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href='home.html'>Home</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">About</a>
+</div>
+
+<div id="main">
+  <h2>How can we help you?</h2>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+<h1>Feel free to contact Us</h1>
+<p> Our whatsapp service is available 24hr's</p>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="Email">Email</label>
+  <input type="text" id="Email" name="Email" placeholder="Your Email..">
+
+    <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<h2>Contact Details</h2>
+
+<button class="accordion">Phone Number</button>
+<div class="panel">
+  <p>You can give us a call on +27612906409 or +27768400640</p>
+</div>
+
+<button class="accordion">Email address</button>
+<div class="panel">
+  <p>email us on Ittanim@gmail.com </p>
+</div>
+
+<button class="accordion">Physical address</button>
+<div class="panel">
+  <p>Our postal address is P.O. BOX 642 MASHAMBA 0942. we are located at limpopo, in a town called Makhado. No physical address is available at the moment. </p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
 
 
 <div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;"> This web page is created by Makhado Invest Group 2022.</div>
