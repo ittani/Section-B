@@ -23,53 +23,6 @@ Home Page
 </body>
 </html>
 
-Css Condes
-
-body
-{
-	background-color: LightGray;
-	background-position: center;
-	background-size: cover;
-	color:white;
-	font-family: Arial;
-	background-image: url('My project.jpg');
-}
-ul
-{
-	margin:0px;
-	padding:0px;
-	list-style:none;
-}
-ul li {
-	float:left;
-	width:180px;
-	height:40px;
-	background-color:black;
-	opacity:.8;
-	line-height:40px;
-	text-align: center;
-	font-size:20px;
-}
-ul li a{
-	text-decoration:none;
-	color:white;
-	display:block;
-}
-ul li a:hover
-{
-	background-color:aqua;
-}
-ul li ul li{
-	display:none;
-}
-ul li:hover ul li{
-	display:block;
-}
-h1
-{
-	color:black;
-}
-
 <!DOCTYPE html>
 <html>
 <head>
