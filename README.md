@@ -48,7 +48,7 @@ Home Page
   <div class="main">
     <h2>The Company</h2>
     <p>This company was started by Ittani Maemo, raised & born in rural villages of limpopo. When i started this company, i was just a dreamer like everybody else. Today we invest in medium Cap companies and start-ups. Join us if you are pationate about investments.</p>
-    <img src="tree.jpg" style="width:40%">
+    
   </div>
 
   <div class="right">
